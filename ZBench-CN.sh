@@ -187,6 +187,11 @@ speed() {
     speed_test 'http://speedtest.fra02.softlayer.com/downloads/test100.zip' 'Softlayer, Frankfurt, DE'
     speed_test 'http://speedtest.sng01.softlayer.com/downloads/test100.zip' 'Softlayer, Singapore, SG'
     speed_test 'http://speedtest.hkg02.softlayer.com/downloads/test100.zip' 'Softlayer, HongKong, CN'
+    speed_test 'http://hnd-jp-ping.vultr.com/vultr.com.100MB.bin' 'VULTR, Tokyo, Japan[日本 东京]'
+    speed_test 'http://sgp-ping.vultr.com/vultr.com.100MB.bin' 'VULTR, Singapore[新加坡]'
+    speed_test 'http://speedtest-sgp1.digitalocean.com/100mb.test' 'DigitalOcean, 新加坡SG'
+    speed_test 'http://speedtest-nyc3.digitalocean.com/100mb.test' 'DigitalOcean, 洛杉矶 New York, NYC3'
+    speed_test 'http://speedtest-fra1.digitalocean.com/100mb.test' 'DigitalOcean, 法兰克福 Frankfurt'
 }
 
 speed_test_cn(){
